@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Gridbox Child
+ Description:  Thème enfant de Gridbox
+ Author:       Esther
+ Author URL:   https://pehaa.com
+ Template:     gridbox
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+*/
+
+#footer, #masthead {
+	background: #674c45;
+}
+article a img {
+	height: 200px;
+	object-fit: cover;
+}
