@@ -18,7 +18,7 @@
 		<footer id="colophon" class="site-footer container clearfix" role="contentinfo">
 
 			<div id="footer-text" class="site-info">
-				Made by Esther 💫 | All rights reserved
+			<?php echo get_theme_mod( 'gridbox_child_info_footer' ); ?>
 			</div><!-- .site-info -->
 			
 			<?php do_action( 'gridbox_footer_menu' ); ?>
@@ -29,7 +29,7 @@
 
 </div><!-- #page -->
 
-<?php wp_footer(); ?>
+ <?php wp_footer(); ?> 
 
 </body>
 </html>

@@ -8,7 +8,7 @@
  License:      GNU General Public License v2 or later
 */
 
-#footer, #masthead {
+#footer, #masthead, .more-link {
 	background: #674c45;
 }
 article a img {
